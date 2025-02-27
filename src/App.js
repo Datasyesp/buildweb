@@ -9,5 +9,10 @@ export default function App() {
     }, 3000);
   }, []);
 
-  return <div>Redirecting...</div>;
+  return (
+    <div className="container">
+      <div className="redirect-text">Redirecting...</div>
+      <div className="loading-circle"></div>
+    </div>
+  );
 }
